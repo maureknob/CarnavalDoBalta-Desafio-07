@@ -31,11 +31,7 @@ void Fib(int n)
     Console.WriteLine();
 }
 
-Fib(1);
-Fib(2);
-Fib(3);
-Fib(4);
-Fib(5);
-Fib(6);
-Fib(7);
-Fib(8);
+for (int i = 1; i < 30; i++)
+{
+    Fib(i);
+}
